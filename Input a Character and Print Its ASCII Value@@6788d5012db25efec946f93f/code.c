@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    scanf("%d", &num);
+
+    printf("ASCII Value: %d\n", num);  
+    
+
+    return 0;
+}
