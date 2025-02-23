@@ -5,10 +5,10 @@ int main() {
 
     scanf("%d", &num1);
 
-    if (!(num1 <= 0)) {
-        printf("True\n");
+    if (!(num1 > 0)) {
+        printf("True\n");  
     } else {
-        printf("False\n");
+        printf("False\n"); 
     }
 
     return 0;
