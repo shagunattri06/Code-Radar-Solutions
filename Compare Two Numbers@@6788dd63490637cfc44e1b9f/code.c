@@ -7,7 +7,7 @@ int main() {
     if (a == b)
         printf("Equal\n");
     else if ((a - b) >> 31) 
-        printf("B is greater\n");
+        printf("Second\n");
     else
         printf("First\n");
 
