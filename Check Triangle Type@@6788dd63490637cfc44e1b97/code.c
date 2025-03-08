@@ -4,11 +4,11 @@ int main() {
     int a, b, c;
     scanf("%d %d %d", &a, &b, &c); 
     if (a == b && b == c)
-        printf("Equilateral Triangle\n"); 
+        printf("Equilateral\n"); 
     else if (a == b || b == c || a == c)
-        printf("Isosceles Triangle\n"); 
+        printf("Isosceles\n"); 
     else
-        printf("Scalene Triangle\n"); 
+        printf("Scalene\n"); 
 
     return 0;
 }
