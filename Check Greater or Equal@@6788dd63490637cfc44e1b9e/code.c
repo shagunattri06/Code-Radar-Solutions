@@ -5,9 +5,9 @@ int main() {
     scanf("%d %d", &a, &b); 
 
     if ((a - b) >> 31) 
-        printf("B is greater\n");
+        printf("No\n");
     else
-        printf("A is greater or equal\n");
+        printf("Yes\n");
 
     return 0;
 }
