@@ -9,7 +9,7 @@ int main() {
     else if ((a - b) >> 31) 
         printf("B is greater\n");
     else
-        printf("A is greater\n");
+        printf("First\n");
 
     return 0;
 }
