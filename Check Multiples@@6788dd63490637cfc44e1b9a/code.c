@@ -5,9 +5,9 @@ int main() {
     scanf("%d %d", &num1, &num2); 
 
     if (num2 != 0 && num1 % num2 == 0)
-        printf("Multiple\n");
+        printf("Yes\n");
     else
-        printf("Not a Multiple\n");
+        printf("No\n");
 
     return 0;
 }
