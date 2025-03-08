@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int num, n;
+    
+    int num = ("%d");  
+    int n = ("%d");     
 
-    scanf("%d %d", &num, &n);
-
-    int nth_bit = (num >> n) & 1;
-
-    // Print the value of the nth bit
-    printf("%d\n", n, nth_bit);
+    int bit = (num >> n) & 1;  
+    printf("%d\n", n, num, bit);
 
     return 0;
 }
+
