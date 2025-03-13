@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    double num1, num2, result;
+    int num1, num2, result;
     char op;
 
-    scanf("%lf %lf %c", &num1, &num2, &op);
+    scanf("%d %d %c", &num1, &num2, &op);
 
     switch (op) {
         case '+': result = num1 + num2; break;
@@ -23,7 +23,7 @@ int main() {
             return 1;
     }
 
-    printf("%.2lf\n", result);
+    printf("%d\n", result);
 
     return 0;
 }
