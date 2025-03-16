@@ -14,7 +14,7 @@ int main() {
             printf("Slow Down\n");
             break;
         default:
-            printf("Invalid Signal\n");
+            printf("Invalid input\n");
     }
 
     return 0;
