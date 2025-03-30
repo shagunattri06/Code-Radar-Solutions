@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n;
-    if(n%n = 1){
+    if(n % 2 = 1){
         printf("1");
     }
     else{
